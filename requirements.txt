@@ -1,0 +1,5 @@
+# requirements.txt
+
+# Python Standard Library only — no external packages required
+
+python>=3.8
