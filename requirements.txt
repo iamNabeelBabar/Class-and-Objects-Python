@@ -1,5 +1,3 @@
-# requirements.txt
+python
 
-# Python Standard Library only — no external packages required
-
-python>=3.8
+#having fimilar with functions and basics of python
