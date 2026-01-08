@@ -1,3 +1,5 @@
+# instance attributes take preference over class attributes 
+
 class Car:
     color = 'red' # -----> class attribute
     price = 2000000
@@ -10,7 +12,8 @@ print(car1.color, car1.price, car1.location)
 
 
 car2 = Car()
-car2.name = 'mercedes' #----> object attribute
-car2.color = 'green'   #----> object attribute
+car2.name = 'mercedes' #----> instace(object) attribute
+car2.color = 'green'   #----> instance attribute
 
 print(car2.name, car2.color, car2.price, car2.location)
+
